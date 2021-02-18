@@ -1,0 +1,22 @@
+{
+  "name": "browsersync-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My private package.",
+  "main": "main.js",
+  "scripts": {
+    "server": "browser-sync start --config bs-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {},
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:yano3nora/my-private-package.git"
+  },
+  "author": "yano3nora <yano3@alhino.jp> (https://github.com/yano3nora)",
+  "license": "MIT"
+}
