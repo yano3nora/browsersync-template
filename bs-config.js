@@ -1,8 +1,5 @@
 // bs-config.js
 module.exports = {
-  // watch 設定 ↓ server 配下を見る
-  watch: true,
-
   // web サーバ設定
   server: {
     baseDir: '.',
